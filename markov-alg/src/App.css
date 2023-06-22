@@ -1,0 +1,62 @@
+input, textarea {
+  border: 1px solid #ccc;
+  margin: 0.5em 0;
+  padding: 0.5em;
+}
+
+.algo {
+  display: flex;
+  flex-direction: column;
+
+  width: 20em;
+}
+
+textarea {
+  height: 10em;
+}
+
+button {
+  padding: 0.5em;
+}
+
+.rule {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 0.5em 0;
+}
+
+.rule-text {
+  width: 100%;
+  font-family: monospace;
+  font-size: 1em;
+
+  margin: 0;
+
+  line-height: 20px;
+
+  resize: none;
+
+  height: auto;
+}
+
+.rule-line-number {
+  width: 0.5em;
+  text-align: right;
+  padding: 0.6em;
+}
+
+.rule-line-number-element {
+  font-family: monospace;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+
+  height: 20px;
+
+  color: gray;
+
+  text-align: center;
+  vertical-align: text-bottom;
+}
